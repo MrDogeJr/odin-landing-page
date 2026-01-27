@@ -108,4 +108,19 @@ h2{
 .container-three-row{
     display:flex;
     gap: 20px;
+    justify-content: center;
 }
+
+.container-three-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoimage{
+    flex: fit-content;
+    max-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
