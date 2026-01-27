@@ -92,8 +92,8 @@ h2{
 .container-three{
     display: flex;
     flex-direction: column;
-    padding-left: 72px;
-    padding-right: 72px;
+    padding-left: 96px;
+    padding-right: 96px;
 }
 
 .container-three-header{
@@ -123,4 +123,26 @@ h2{
     margin: 0;
     padding: 0;
 }
+
+/* Body Part 3 */
+
+.container-four{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote{
+    margin:0;
+}
+.quotesayer{
+    text-align: end;
+    margin:0;
+}
+
 
