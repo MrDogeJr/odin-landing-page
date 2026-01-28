@@ -122,6 +122,7 @@ h2{
     max-width: 150px;
     margin: 0;
     padding: 0;
+    outline: #3882F6;
 }
 
 /* Body Part 3 */
@@ -139,10 +140,16 @@ h2{
 
 .quote{
     margin:0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
 .quotesayer{
     text-align: end;
     margin:0;
+    font-size: 24px;
+    font-weight: 600;
 }
 
+/* Body Part 4 */
 
