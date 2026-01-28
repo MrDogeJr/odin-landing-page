@@ -1,5 +1,4 @@
 *{
-    outline:auto;
     font-family: Roboto, Arial, Helvetica;
 }
 
@@ -80,7 +79,8 @@ h2{
     color: #F9FAF8;
     font-weight:bold;
     flex-shrink: 0;
-    outline-color: #1F2937;
+    border-style: solid;
+    border-color: #1F2937;
 }
 
 .container-two-image{
@@ -192,6 +192,18 @@ h2{
     border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
 }
 
 /* Footer Section */
+
+.container-six{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.container-six-text{
+    color: #F9FAF8;
+}
