@@ -80,6 +80,7 @@ h2{
     color: #F9FAF8;
     font-weight:bold;
     flex-shrink: 0;
+    outline-color: #1F2937;
 }
 
 .container-two-image{
@@ -153,3 +154,44 @@ h2{
 
 /* Body Part 4 */
 
+.container-five {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    margin: 72px;
+    padding: 24px 48px;
+    border-radius: 5px;
+    gap: 72px
+}
+
+.container-five-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-five-header{
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.container-five-subtext{
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.container-five-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-five-button{
+    margin: 0;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* Footer Section */
