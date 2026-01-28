@@ -32,6 +32,7 @@ ul{
     display:flex;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
 
 a{
@@ -53,6 +54,7 @@ a{
 .container-two-left{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 h2{
@@ -121,9 +123,14 @@ h2{
 .infoimage{
     flex: fit-content;
     max-width: 150px;
+    max-height: 300px;
     margin: 0;
     padding: 0;
     outline: #3882F6;
+}
+
+.infoimagetext{
+    text-align: center;
 }
 
 /* Body Part 3 */
